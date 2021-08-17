@@ -1,0 +1,641 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* clases para todo el index.html*/
+
+.imagenLogo{
+     width: 70px;
+     height: 58px;
+     position: relative;
+     float: left;
+     
+
+
+}
+
+.ul-principal {
+
+    list-style: none;
+    display: flex;
+    left:0px;
+    
+}
+
+.ul-principal .sub li {
+    width: 200px;
+}
+
+li {
+   
+    width: 100px;
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+.links {
+    color: black;
+}
+
+ label {
+   font-weight:lighter;
+
+} 
+
+
+
+.botones {
+
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: lightslategray;
+    border-radius: 50%;
+    transition: all 1.5s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    border: black solid;
+
+}
+
+.contactoBoton{
+    color: black;
+}
+
+
+
+
+
+.margen-superior {
+    margin-top: 10px;
+    display: block;
+}
+
+.colorDescripcion {
+    color: white;
+        
+}
+
+.descripcion {
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+
+}
+
+.alineacionDescripcion{
+    display: flex;
+    justify-content: center;
+    background-color: lightslategrey;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+
+.parrafoDescripcion > p {
+    background-color: whitesmoke;
+}
+
+
+
+.imagen-secundaria {
+    width: 100%;
+
+}
+
+
+
+.alineacion-video-mapa {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0,5px;
+    border: 2px solid black;
+}
+
+.titulos {
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.titulos-2 {
+
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* se aplica clase "P" para todos los parrafos queden sin margen inferior, y que anule a la que viene con bootstrap*/
+p{
+    margin-bottom: 0 !important;
+}
+
+.fondoVideoMapa{
+    background-color: white;
+}
+
+header {
+    /* background-image: url("../img/motoIndex.png"); */
+    
+    width: 100%;
+    background-position: center;
+}
+
+
+
+footer {
+    background: linear-gradient(#000046, #1cb5e0);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+
+
+.mapa {
+
+    display: inline-block;
+}
+
+
+/* menu desplegable */
+.sub-menu>ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 86px;
+    background: white;
+    padding: 0;
+}
+
+
+.dropdown-itemDos{  
+    color:black;  
+    width:143%;
+    border: black solid 0.8px;
+    border-radius: .25rem;
+}
+
+.dropdown-menu-white{
+   background-color: aquamarine;
+}
+
+.dropdown-menu{
+    width:120%;
+    background-color:brown;
+}
+
+
+
+.site-navbar {
+    width: 100%; 
+    z-index: 1999;
+    margin-bottom: 0px;
+    top: 0;
+}
+.site-navbar a {
+  color: rgb(43, 41, 41);
+}
+.site-navbar a:hover {
+  color: rgb(43, 41, 41);
+}
+
+.margenesGlobales{
+    margin: 2em 2em 2em 2em;
+
+}
+
+label {
+    font-weight:lighter;
+    font-size: 34px;
+    margin: 0.5em;
+ } 
+ 
+.botonHamburguesa{
+    width: 3em;
+    height: 2em;
+    margin-left:-16px;
+}
+
+a {
+    color: black;
+    display: block;
+}
+
+.sub-menu ul li {
+    float: none;
+}
+
+.sub-menu:hover>ul {
+    display: block !important;
+}
+
+.sticky{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* clases para contacto.html*/
+
+.imagen-contacto {
+
+    height: 30%;
+    width: 100%;
+    background-position: center;
+
+}
+
+.imagen-contacto{
+    width: 100%;
+    height: 750px;
+}
+
+
+.botones-contacto {
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+    border-radius: 50%;
+    transition: all 1.5s ease;
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    border: black solid;
+}
+
+.fondoBotonesContacto{
+    background: linear-gradient(to right, rgba(57, 106, 252, 0.5), rgba(41, 72, 255, 0.2));;
+}
+
+.h2{ 
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0% ;
+    
+    
+}
+
+.titulosContacto{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    transition: all 1.5s;
+
+
+}
+
+.fondosTitulosContacto{
+    background-color: darkgray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.checkbox{
+    background: radial-gradient(#fdbb2d, #22c1c3);
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.checkboxIndividulaes{
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 20px!important;
+    font-weight: 100 !important;
+    margin:0em;
+   
+}
+
+.formulario{
+    
+    border: 1px solid gray;
+}
+
+
+.imagen-datos{
+
+    height: 30%;
+    width: 100%;
+    background-position: center;
+}
+
+.margenes{
+
+    margin-top: 30px;
+}
+
+.espacio-marcadores{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+/* clases para novedades.html*/
+
+
+    
+.h3{
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.imagen-novedades{     ----- se reemplaza por grid------
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-novedades > img{
+
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+/* clases para seguros.html*/
+
+.h4{
+
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen-seguros{
+
+    width: 1424px;
+    height: 650px;
+
+}
+
+
+/* clases para tienda.html*/
+
+.h5{
+
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen-tienda{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+/* aplicando grid a un html del proyecto*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 50% 50%;
+   
+ 
+}
+
+.grid-img{
+    display: grid;
+    width: 720px;
+    height: 610px;
+}
+
+
+
+/* transformaciones aplicadas */
+
+/* para el html.index (Home)*/
+/*aplicado al titulo descripcion*/
+.descripcion:hover{
+    transform: scale(2);
+}
+
+/* transiciones aplicadas en el boton (contacto de los 5 html)*/
+.moveBoton:hover .botones{
+    transform: translateY(100px);
+}
+
+
+.containerBotonesContacto:hover .botones-contacto{
+    transform: scale(2) translateX(200px);
+   
+    
+}
+
+
+.titulosContacto:hover{
+    transform: scale(3);
+}
+
+
+
+/*se aplico un gadiente en el FOOTER, buscar la clase footer que aplica para todos los html del proyecto*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medias query aplicadas al Home (index.html) . con mobile first, luego tablet y luego pc (desktop)*/
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+
+    #grillaGeneral{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 
+        "cabecera"
+        "descripcionSection"
+        "aprovecha"
+        "textoDescripcion"
+        "concesionarios"
+        "videoMapa";
+
+
+    }
+
+    header {
+        background-image: url("../img/motoIndex.png");
+        background-size: 100% 100%;
+        height: 220%;
+        width: 100%;
+        background-position: center;
+    }
+
+    .margen-superior {
+
+        margin-top: 10px;
+    
+        display: block;
+    }
+
+    .titulos {
+        font-family: 'Roboto', sans-serif;
+        color: blue;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    
+    .titulos-2 {
+    
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 40px;
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    #videoMapa{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .botones {
+
+        width: 165px;
+        float: right;
+        background-color: cyan;
+    
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+    #grillaGeneral{
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 
+        "cabecera"
+        "descripcionSection"
+        "aprovecha"
+        "textoDescripcion"
+        "concesionarios"
+        "videoMapa";
+
+
+    }
+
+    header {
+        /* background-image: url("../img/motoIndex.png"); */
+        background-size: 100% 100%;
+        height: 220%;
+        width: 100%;
+        background-position: center;
+    }
+
+    .margen-superior {
+
+        margin-top: 10px;
+    
+        display: block;
+    }
+
+    .titulos {
+        font-family: 'Roboto', sans-serif;
+        color: blue;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    
+    .titulos-2 {
+    
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 40px;
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    #videoMapa{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .botones {
+
+        width: 165px;
+        float: right;
+        background-color: cyan;
+    
+    }
+
+}
+
+

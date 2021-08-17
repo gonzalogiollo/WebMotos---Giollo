@@ -1,0 +1,22 @@
+@import '../base/variables';
+/* clases para tienda.html*/
+
+.h5{
+
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: $tipoletra;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagen-tienda{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin: 0%;
+}
+

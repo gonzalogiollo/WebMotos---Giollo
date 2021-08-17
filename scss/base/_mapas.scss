@@ -1,0 +1,9 @@
+$avisos:(
+    color-standard: #2a6f97,
+    bg-color-standard: #979dac,
+
+);
+
+.avisoSeguros{
+    background-color: map-get($avisos, bg-color-standard);
+}

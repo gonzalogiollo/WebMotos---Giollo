@@ -1,0 +1,48 @@
+@import '../base/variables';
+/* clases para novedades.html*/
+
+
+    
+.h3{
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: $tipoletra;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*.imagen-novedades{     ----- se reemplaza por grid------
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-novedades > img{
+
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+/* aplicando grid a un html del proyecto*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 50% 50%;
+   
+ 
+}
+
+.grid-img{
+    display: grid;
+    width: 720px;
+    height: 610px;
+}

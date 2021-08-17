@@ -1,0 +1,9 @@
+@mixin transform {
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.avisoTransform:hover{
+    @include transform;
+}
+

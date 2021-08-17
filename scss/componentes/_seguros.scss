@@ -1,0 +1,26 @@
+
+@import '../base/variables';
+
+/* clases para seguros.html*/
+
+
+
+
+.avisoImportante{
+
+    p{
+        text-align: center;
+        font-family: $tipoletra;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+       
+    }
+
+    .aviso{
+        color: red;
+        font-size: 40px;
+
+    }
+}
+

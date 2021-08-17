@@ -1,0 +1,13 @@
+$ancho: 200%;
+
+.imagen-seguros{
+
+    width: $ancho;
+
+    img{
+        width: $ancho - 150%;
+        height: 600px;
+    }
+
+
+}
