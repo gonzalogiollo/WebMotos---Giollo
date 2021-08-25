@@ -196,26 +196,26 @@
   
       <section class="formulario">
   
-          <form class="row g-3">
+          <form method="POST" action="enviar2.php" class="row g-3">
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="email" class="form-control" name="Email" id="inputEmail4">
               </div>
               <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="password" class="form-control" name="password" id="inputPassword4">
               </div>
               <div class="col-12">
                 <label for="inputAddress" class="form-label">Direccion</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="ej: calle 1 xxxx">
+                <input type="text" class="form-control" id="inputAddress" name="Direccion" placeholder="ej: calle 1 xxxx">
               </div>
               <div class="col-12">
                 <label for="inputAddress2" class="form-label">Direccion 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Piso, departamento, timbre">
+                <input type="text" class="form-control" id="inputAddress2" name="direccion 2" placeholder="Piso, departamento, timbre">
               </div>
               <div class="col-md-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" name="Ciudad" id="inputCity">
               </div>
               <div class="col-md-4">
                 <label for="inputState" class="form-label">Localidad</label>
@@ -226,7 +226,7 @@
               </div>
               <div class="col-md-2">
                 <label for="inputZip" class="form-label">Cp</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" class="form-control" name="Cp" id="inputZip">
               </div>
               <div class="col-12">
                 <div class="form-check">

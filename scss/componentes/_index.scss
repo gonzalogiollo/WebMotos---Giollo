@@ -64,8 +64,9 @@ li {
         div{
 
             img{
-                width: 100%;
-                height: 700px;
+                
+                height: 20%;
+                
             }
         }
     }
@@ -137,7 +138,17 @@ li {
 }
 
 
-
+.titulos-2 {
+    
+    font-family: $tipoletra;
+    color: black;
+    font-size: 40px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
 
 
 
@@ -161,16 +172,7 @@ li {
 }
 
 
-.titulos-2 {
 
-    font-family: $tipoletra;
-    color: black;
-    font-size: 40px;
-    background-color: cornflowerblue;
-    display: flex;
-    justify-content: center;
-   
-}
 
 /* se aplica clase "P" para todos los parrafos queden sin margen inferior, y que anule a la que viene con bootstrap*/
 p{
@@ -301,22 +303,7 @@ a {
     transform: scale(2);
 }
 
-/* transiciones aplicadas en el boton (contacto de los 5 html)*/
-.moveBoton:hover .botones{
-    transform: translateY(100px);
-}
 
-
-.containerBotonesContacto:hover .botones-contacto{
-    transform: scale(2) translateX(200px);
-   
-    
-}
-
-
-.titulosContacto:hover{
-    transform: scale(3);
-}
 
 
 .whatsapp {
@@ -359,9 +346,9 @@ a {
     }
 
     header {
-        background-image: url("../img/motoIndex.png");
+        background-image: url("../img/fotoCarousel1.png, fotoCarousel2.png, fotoCarousel3.png, fotoCarousel4.png, fotoCarousel5.png");
         background-size: 100% 100%;
-        height: 220%;
+        height: 100%;
         width: 100%;
         background-position: center;
     }
@@ -392,7 +379,7 @@ a {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 30px;
+        
     }
 
     #videoMapa{
@@ -407,6 +394,31 @@ a {
         background-color: cyan;
     
     }
+
+    .parrafoDescripcion > p {
+        background-color: nth($bg-color-titulos, 10);
+        padding-left: 1%;
+        
+       
+    }
+
+    .moveBoton:hover .botones{
+        transform: translateY(50px);
+    }
+    
+    
+    .containerBotonesContacto:hover .botones-contacto{
+        transform: scale(1) translateX(100px);
+       
+        
+    }
+    
+    
+    .titulosContacto:hover{
+        transform: scale(1);
+    }
+
+    
     
 }
 
@@ -430,9 +442,9 @@ a {
     }
 
     header {
-        /* background-image: url("../img/motoIndex.png"); */
+        background-image: url("../img/fotoCarousel1.png, fotoCarousel2.png, fotoCarousel3.png, fotoCarousel4.png, fotoCarousel5.png");
         background-size: 100% 100%;
-        height: 220%;
+        height: 100%;
         width: 100%;
         background-position: center;
     }
@@ -463,7 +475,7 @@ a {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 30px;
+        
     }
 
     #videoMapa{
@@ -478,5 +490,33 @@ a {
         background-color: cyan;
     
     }
+
+    .parrafoDescripcion > p {
+        background-color: nth($bg-color-titulos, 10);
+        padding-left: 1%;
+        
+       
+    }
+
+
+    .moveBoton:hover .botones{
+        transform: translateY(50px);
+    }
+    
+    
+    .containerBotonesContacto:hover .botones-contacto{
+        transform: scale(1) translateX(100px);
+       
+        
+    }
+    
+    
+    .titulosContacto:hover{
+        transform: scale(1);
+    }
+
+   
+
+    
 
 }

@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalogiollo/WebMotos---Giollo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonzalogiollo/WebMotos---Giollo/issues"
+  },
+  "homepage": "https://github.com/gonzalogiollo/WebMotos---Giollo#readme",
   "description": ""
 }

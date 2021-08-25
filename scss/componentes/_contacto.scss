@@ -103,3 +103,19 @@
 }
 
 
+/* transiciones aplicadas en el boton*/
+.moveBoton:hover .botones{
+    transform: translateY(100px);
+}
+
+
+.containerBotonesContacto:hover .botones-contacto{
+    transform: scale(2) translateX(200px);
+   
+    
+}
+
+
+.titulosContacto:hover{
+    transform: scale(3);
+}

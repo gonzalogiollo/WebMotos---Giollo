@@ -587,7 +587,7 @@ a {
     }
 
     header {
-        /* background-image: url("../img/motoIndex.png"); */
+        background-image: url("../img/motoIndex.png");
         background-size: 100% 100%;
         height: 220%;
         width: 100%;
