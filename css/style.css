@@ -327,6 +327,12 @@ a {
   .checkbox label {
     justify-content: left;
   }
+
+  .grid-container img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 501px) and (max-width: 768px) {
   #grillaGeneral {
@@ -405,6 +411,12 @@ a {
   }
   .checkbox label {
     justify-content: left;
+  }
+
+  .grid-container img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 /* clases para contacto.html*/
@@ -576,7 +588,6 @@ a {
 .grid-img {
   display: grid;
   width: 720px;
-  height: 610px;
 }
 
 .avisoSeguros {

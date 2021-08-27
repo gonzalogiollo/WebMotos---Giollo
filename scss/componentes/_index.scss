@@ -440,6 +440,19 @@ a {
         }
     }
 
+    
+    
+    .grid-container {
+
+        img{
+
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+    }
+
    
 
     
@@ -567,6 +580,19 @@ a {
            justify-content: left;
        }
    }
+
+
+   .grid-container {
+
+    img{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+   }
+    
 
    
 
