@@ -110,6 +110,7 @@ li {
     a{
         img{
            
+         height: auto;   
          width: 100%;
 
             
@@ -152,8 +153,8 @@ li {
 
 
 
-.links{
-    color: #01497c;
+.links-descripcion{
+    color: white;
 }
 
 
@@ -272,7 +273,7 @@ label {
  } 
  
 .botonHamburguesa{
-    width: 3em;
+    width: auto;
     height: 2em;
     margin-left:-16px;
 }
